@@ -8,9 +8,8 @@ version="${file.jarVersion}"
 displayName="Mobserve"
 updateJSONURL="http://dccg.herokuapp.com/api/fmluc/<CFID>"
 displayURL="http://dccg.herokuapp.com/api/fmlhp/<CFID>"
-logoFile="examplemod.png" #optional
-credits="None" #optional
-authors="Zeitheron" #optional
+credits="Raithion for comissioning the mod."
+authors="Zeitheron"
 description='''
 Adds a criterion for looking at mobs!
 '''
@@ -18,7 +17,7 @@ Adds a criterion for looking at mobs!
     modId="forge"
     mandatory=true
     versionRange="[36,)"
-    ordering="NONE" # NONE/BEFORE/AFTER
+    ordering="NONE"
     side="BOTH"
 [[dependencies.mobserve]]
     modId="minecraft"
