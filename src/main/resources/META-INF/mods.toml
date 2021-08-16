@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+issueTrackerURL="https://gitlab.com/DragonForge/<NAME>/issues"
+license="All rights reserved"
+[[mods]]
+modId="mobserve"
+version="${file.jarVersion}"
+displayName="Mobserve"
+updateJSONURL="http://dccg.herokuapp.com/api/fmluc/<CFID>"
+displayURL="http://dccg.herokuapp.com/api/fmlhp/<CFID>"
+logoFile="examplemod.png" #optional
+credits="None" #optional
+authors="Zeitheron" #optional
+description='''
+Adds a criterion for looking at mobs!
+'''
+[[dependencies.mobserve]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE" # NONE/BEFORE/AFTER
+    side="BOTH"
+[[dependencies.mobserve]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
